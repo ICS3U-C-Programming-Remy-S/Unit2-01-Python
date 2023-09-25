@@ -8,10 +8,10 @@ import math
 
 
 def main():
-    print("For a circle with a radius of 17cm:")
+    print("For a circle with a radius of 17.46cm:")
     print()
-    print("The area is: {}cm^2".format(math.pi * (17**2)))
-    print("The circumference is: {}cm".format(2 * math.pi * 12.329))
+    print("The area is: {:.2f}cm^2".format(math.pi * (17.46**2)))
+    print("The circumference is: {:.2f}cm".format(2 * math.pi * 17.46))
 
 
 if __name__ == "__main__":
